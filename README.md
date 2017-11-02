@@ -1,3 +1,7 @@
+安装依赖
+---------------
+    composer install
+
 Yii 2 Basic Project Template
 ============================
 
