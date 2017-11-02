@@ -124,4 +124,14 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
+    /**
+     * Practice of Action define.
+     * @author wjg
+     * @param string $message
+     * @return string
+     */
+    public function actionSay($message = 'Yii2 demo')
+    {
+        return $this->render('say', ['message' => $message]);
+    }
 }
